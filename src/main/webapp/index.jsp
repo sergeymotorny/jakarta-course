@@ -5,8 +5,11 @@
     <title>Main</title>
 </head>
 <body>
-    <h2><%= "Hello, User!" %></h2> <br/>
+    <div style="text-align: center">
+        <h2>Log in:</h2>
 
-    <a href="data"><p>Get information about a person!</p></a>
+        <a href="auth">Authentication</a>
+    </div>
+
 </body>
 </html>
