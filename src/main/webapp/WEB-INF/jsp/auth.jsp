@@ -10,7 +10,7 @@
             <input style="margin-bottom: 20px" type="text" id="login" name="login" required> <br> <br>
 
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required> <br> <br>
+            <input type="text" id="password" name="password" required> <br> <br>
 
             <button type="submit">Submit</button>
         </form>
