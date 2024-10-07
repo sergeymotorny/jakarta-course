@@ -1,4 +1,4 @@
-package com.jak.jakarta_course;
+package com.jakarta_course.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

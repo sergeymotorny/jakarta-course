@@ -1,4 +1,4 @@
-package com.jak.jakarta_course;
+package com.jakarta_course.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,12 +8,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "homePage", value = "/home")
-public class HomeServlet extends HttpServlet {
+@WebServlet(name = "doc", value = "/doc")
+public class DocServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/jsp/home.jsp")
+        req.getRequestDispatcher("/WEB-INF/jsp/doc.jsp")
                 .forward(req, resp);
     }
 }
