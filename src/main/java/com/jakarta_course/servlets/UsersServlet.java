@@ -1,6 +1,6 @@
 package com.jakarta_course.servlets;
 
-import com.jakarta_course.model.User;
+import com.jakarta_course.models.User;
 import jakarta.servlet.ServletConfig;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
