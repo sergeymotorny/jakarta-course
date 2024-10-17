@@ -1,4 +1,4 @@
-package com.jakarta_course.model;
+package com.jakarta_course.models;
 
 public class User {
 
